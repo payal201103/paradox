@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ATTRIBUTE</title>
+    <style>
+        .animal{
+            background-color: aquamarine;
+            font-size: large;
+            padding: 10px;
+        }
+        .center{
+            text-align: center;
+            color: rgb(247, 17, 28);
+        }
+        .heading{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(209, 130, 188);
+            padding: 10px;
+        }
+        #language{
+            margin-top: 10px;
+            background-color: rgb(152, 176, 255);
+            text-align: center;
+        }
+        .table {
+        text-align: center;
+         width: min-content;
+    }
+    th, td {
+        border: 2px solid;
+        padding: 10px;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>Class attribute</h1><hr>
+    <h1 class="animal ">Dog ia a animal.</h1>
+    <h1 class="animal">Cat ia a animal.</h1>
+    <h1 class="animal center">Got ia a animal.</h1>
+     <hr>
+     <h2>Multiple class</h2>
+     <h3 class="heading">This is heading. </h3>
+     <h3 class="heading">This is heading. </h3>
+     <h3 class="heading">This is heading. </h3>
+     <h3 class="heading">This is heading. </h3>
+     <hr>
+     <h1>ID attribute</h1><hr>
+     <p id="language">Html is a hyper text markup language. it use to create a web page. Html support to all browers.</p>
+     <br>
+     <h1 style="text-align: center; background-color: rgb(123, 226, 226);">HTML TABLE</h1><br>
+     <h2>List of student name:</h2>
+     <table>
+         <tr>
+             <th>No.</th>
+             <th>Student Name</th>
+             <th>City</th>
+         </tr>
+         <tr>
+             <td>1</td>
+             <td>payal</td>
+             <td>bagasara</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>dharmi</td>
+             <td>amreli</td>
+         </tr>
+         <tr>
+             <td>3</td>
+             <td>dharati</td>
+             <td>surat</td>
+         </tr>
+     </table><hr>
+     <h1> Html form</h1>
+     <form>
+         <label>State <br>
+         <select name="State">
+             <option>--none--</option>
+             <option>Gujrat</option>
+             <option>Rajsathan</option>
+             <option>Panjab</option>
+             <option>Karela</option>
+         </select> </label>
+         <p>
+             <label>username: <input type="text"></label>
+         </p>
+         <p>
+             <label>password: <input type="text"></label>
+         </p>
+         <button type="submit">submit</button>
+     </form>
+     <p>
+         Gender:
+         <label><input type="radio" name="Gender" value="male">male</label>
+         <label><input type="radio" name="Gender" value="female">female</label>
+     </p>
+     <p><label>
+         Email <input type="email" name="email">
+     </label></p>
+     <p>
+         <label>Date of birth <input type="date" value="birthdate"></label>
+     </p>
+     <p>
+         <label>Adress:
+             <br>
+             <textarea name="Adress" id="" cols="30" rows="10"></textarea>
+         </label>
+     </p>
+     <button type="submit">Submit</button>
+ </body>
+ </html>
