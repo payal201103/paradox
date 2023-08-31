@@ -4,98 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>layout create</title>
+    <title>Layout create</title>
     <style>
-        .body {
-            background-color: rgb(227, 207, 207);
-        }
-        .class{
-            height: 30px;
-            align-items: center;
-            display: flex;
-            
-        }
-        #circle1{
-             height: 30px;
-             width: 30px;
-             background-color: rgb(241, 32, 32);
-             border-radius: 15px;
-             margin: 10px;
-             
-        }
-        #circle2{
-             height: 30px;
-             width: 30px;
-             background-color: rgb(241, 95, 32);
-             border-radius: 15px;
-             margin: 10px;
-             
-        }
-        #circle3{
-             height: 30px;
-             width: 30px;
-             background-color: rgb(77, 240, 131);
-             border-radius: 15px;
-             margin: 10px;
-             
-        }
-        #nav{
-            background-color: rgb(225, 217, 144);
-            height: 30px;
-            width: 90%;
-        }
-        .class2{
-            margin-top: 20px;
+        .class {
+            margin-top: 10px;
+            height: 200px;
             display: flex;
             gap: 10px;
-            height: 200px;
-            
+            padding: 13px;
         }
 
-        #section {
-            background-color: rgb(240, 114, 24);
+        #left {
+            background-color: rgb(234, 178, 76);
             width: 50%;
         }
-        #container{
-            background-color: rgb(192, 13, 13);
+
+        #right {
+            background-color: rgb(237, 60, 60);
             width: 50%;
         }
-        .class1{
-            margin-top: 20px;
+
+        .class1 {
+            height: 300px;
             display: flex;
             gap: 10px;
-            height: 300px;
-            
+            padding-bottom: 15px;
         }
-        #right{
-            background-color: rgba(59, 59, 205, 0.859);
-            width: 20%;
+
+        #left1 {
+            background-color: rgb(72, 72, 239);
+            width: 30%;
         }
-        #left{
-            background-color: rgb(17, 206, 143);
-            width: 80%;
-            height: 300px;
-    
+
+        #right1 {
+            background-color: aquamarine;
+            width: 70%;
         }
     </style>
 </head>
 
-<body class="body">
-    <div class="class">
-        <div id="circle1"></div>
-        <div id="circle2"></div>
-        <div id="circle3"></div>
-        <div id="nav"></div>
-    </div>
-    <div class="class2">
-    <div id="section"></div>
-    <div id="container"></div>
-    </div>
-    <div class="class1">
-    <div id="right"></div>
-    <div id="left"></div>
-    </div>
-    <div style="background-color: rgb(158, 163, 20); height: 40px; width: 100%; margin-top: 20px;"></div>
+<body>
+    <!--header section-->
+    <header
+        style="background-color: aqua;height: 50px; width:100%; text-align: center; font-size: xx-large; margin-top: 10px;">
+        <b>ANIMAL ENCYCLOPEDIYA</b>
+    </header>
+    <!--main section-->
+    <section class="class">
+        <div id="left"><strong>Animal history</strong><br>
+            animal, (kingdom Animalia), any of a group of multicellular eukaryotic organisms (i.e., as
+            distinct from bacteria, their deoxyribonucleic acid, or DNA, is contained in a membrane-bound nucleus).
+            <br>Animals dominate human conceptions of life on Earth not simply by their size, abundance, and sheer
+            diversity but also by their mobility, a trait that humans share. So integral is movement to the conception
+            of animals that sponges, which lack muscle tissues, were long considered to be plants.
+        </div>
+        <div id="right"><strong>Animal diversity</strong><br>
+            The diverse appearance of animals is mostly superficial; the bewildering variety of known forms, some truly
+            bizarre, can be assorted among a mere half-dozen basic body plans.<br> These plans are established during
+            the
+            embryonic stages of development and limit the size and complexity of the animals.<br> Symmetry, number and
+            relative development of tissue layers, presence and nature of body cavities, and several aspects of early
+            development define these fundamental modes of organization.</div>
+    </section>
+    <article class="class1">
+        <div id="left1">
+            <img src="https://media.istockphoto.com/photos/big-family-in-the-forest-picture-id1194518176?b=1&k=6&m=1194518176&s=170667a&h=b2hbD5-pVt36v__iKOC6RujDn38RlEzB80m03r5lHPg="
+                width="100%" height="100%" alt="animal encyclopediya">
+        </div>
+        <div id="right1"><strong>Animals are multicellular</strong> <br>
+            Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia. With few
+            exceptions, animals consume organic material, breathe oxygen, have myocytes and are able to move, can
+            reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development. As
+            of 2022, 2.16 million living animal species have been described—of which around 1.05 million are insects,
+            over 85,000 are molluscs, and around 65,000 are vertebrates—but it has been estimated there are around 7.77
+            million animal species in total. Animals range in length from 8.5 micrometres (0.00033 in) to 33.6 metres
+            (110 ft). They have complex interactions with each other and their environments, forming intricate food
+            webs. The scientific study of animals is known as zoology. <br>
+            <br><strong>Etymology</strong>
+            <hr>
+            The word "animal" comes from the Latin animalis, meaning 'having breath', 'having soul' or 'living being'.
+            The biological definition includes all members of the kingdom Animalia.In colloquial usage, the term animal
+            is often used to refer only to nonhuman animals. The term "metazoa" is derived from the Ancient Greek μετα
+            (meta, meaning "later") and ζῷᾰ (zōia, plural of ζῷον zōion, meaning animal).
+        </div>
+    </article>
+    <!--footer section-->
+    <footer style="background-color: rgb(235, 146, 197); height: 50px; width: 100%;">An animal is a multicellular
+        eukaryotic organism that belongs to the biological kingdom Animalia. Animals are characterized by their ability
+        to consume organic material, breathe oxygen, move, reproduce sexually, and grow from a hollow sphere of cells
+        called the blastula during embryonic .... <a href="https://www.bing.com/search?q=animal+en&aqs=edge.0.69i64i450l8.858046921j0j1&FORM=ANSPA1&PC=DCTS">more information</a></footer>
 </body>
 
 </html>
