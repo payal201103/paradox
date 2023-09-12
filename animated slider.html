@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Slider</title>
+</head>
+<style>
+    h1 {
+        background-color: wheat;
+        color: rgb(64, 64, 224);
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    li {
+        display: inline;
+        margin: 10px;
+    }
+
+    @keyframes mymove {
+        from {
+            right: 0px;
+        }
+
+        to {
+            right: 200px;
+        }
+    }
+
+    img {
+
+        width: 100%;
+        margin: auto;
+        transform: rotate(100vw);
+    }
+
+    .container {
+
+        overflow: hidden;
+        margin: auto;
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+        position: relative;
+        animation: mymove 5s infinite;
+        animation-delay: 3s;
+    }
+
+    .slide1 {
+        animation-timing-function: ease;
+        width: 100%;
+    }
+
+    .slide2 {
+        animation-timing-function: ease;
+    }
+
+    .slide3 {
+        animation-timing-function: ease;
+    }
+
+    .slide4 {
+        animation-timing-function: ease;
+    }
+
+    .class {
+        background-color: rgb(194, 215, 235);
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    section {
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .box {
+        display: flex;
+        width: 50%;
+        gap: 10px;
+        padding: 10px;
+    }
+    .center{
+        margin: auto;
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+        position: relative;
+        animation: mymove 5s infinite;
+        animation-delay: 2s;
+    }
+</style>
+
+<body>
+    <h1>Blue See</h1>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Fish</a></li>
+            <li><a href="">Sea</a></li>
+            <li><a href="">Advanture</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img class="slide1" src="D:\sea_1.avif">
+        <img class="slide2" src="D:\sea-2.avif">
+        <img class="slide3" src="D:\sea-4.avif">
+    </div>
+    <h1 style="background-color: wheat;color: rgb(64, 64, 224); height: 50px; width: 100%;text-align: center;">Histrory
+        of Fish</h1>
+
+    <div class="class">
+        <p>What is the evolution of fish? Fish began to evolve during the Cambrian explosion approximately 530 million
+            years ago. The early chordates formed the skull and spinal column at this epoch, giving rise to the earliest
+            craniates and vertebrates. The Agnatha, or jawless fish, are the earliest fish lineages.
+            <br><br> The evolution of fish began about 530 million years ago during the Cambrian explosion. It was
+            during this time that the early chordates developed the skull and the vertebral column, leading to the first
+            craniates and vertebrates. The first fish lineages belong to the Agnatha, or jawless fish. Early examples
+            include Haikouichthys. During the late Cambrian, eel-like jawless fish called the conodonts, and small
+            mostly armoured fish known as ostracoderms, first appeared. Most jawless fish are now extinct; but the
+            extant lampreys may approximate ancient pre-jawed fish. Lampreys belong to the Cyclostomata, which includes
+            the extant hagfish, and this group may have split early on from other agnathans.
+        </p>
+    </div>
+    <section>
+        <div class="contant"><img src="D:\fish1.avif"></div>
+        <div class="contant"><img src="D:\fish2.avif"></div>
+        <div class="contant"><img src="D:\fish3.avif"></div>
+        <div class="contant"><img src="D:\fish4.avif"></div>
+        <div class="contant"><img src="D:\fish5.avif"></div>
+        <div class="contant"><img src="D:\fish6.avif"></div>
+        <div class="contant"><img src="D:\fish7.avif"></div>
+        <div class="contant"><img src="D:\fish8.avif"></div>
+    </section>
+    <h1 style="background-color: wheat; padding: 10px; height: 50%; width: 100%; color: rgb(64, 64, 224);">Nature Of
+        Bule Sea</h1>
+    <section>
+        <div class="box">
+            <img src="D:\sea-3.avif" height="100%" width="50%">
+            <img src="D:\ocan.avif" height="auto" width="50%">
+        </div>
+    </section>
+    <h1 style="background-color: wheat; padding: 10px; height: 50%; width: 100%; color: rgb(64, 64, 224); ">Advanture
+    </h1>
+</body>
+<div style="background-color:  rgb(194, 215, 235); height: auto; width: 100%; padding: 10px;">
+    <p>Adventurous experiences create psychological arousal,[2] which can be interpreted as negative (e.g. fear) or
+        positive (e.g. flow). For some people, adventure becomes a major pursuit in and of itself. According to
+        adventurer André Malraux, in his Man's Fate (1933), "If a man is not ready to risk his life, where is his
+        dignity?" <br>
+
+        Similarly, Helen Keller stated that "Life is either a daring adventure or nothing."[3] <br>
+
+        Outdoor adventurous activities are typically undertaken for the purposes of recreation or excitement: examples
+        are adventure racing and adventure tourism. Adventurous activities can also lead to gains in knowledge, such as
+        those undertaken by explorers and pioneers – the British adventurer Jason Lewis, for example, uses adventures to
+        draw global sustainability lessons from living within finite environmental constraints on expeditions to share
+        with schoolchildren. Adventure education intentionally uses challenging experiences for learning.</p>
+</div>
+ <section class="center">
+    <img src="D:\adave.avif" height="50%" width="50%" style="padding: 10px;">
+ </section>
+</html>
